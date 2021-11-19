@@ -1,0 +1,20 @@
+# Automatic EOL normalization for all files
+* text=auto
+
+# Unix files
+*.sh text eol=lf
+
+# Windows files
+*.bat text eol=crlf
+*.ps  text eol=crlf
+
+# Images
+*.png  binary
+*.jpg  binary
+*.svg  binary
+*.jpeg binary
+
+# Documents
+*.pdf  binary
+*.doc  binary
+*.docx binary
