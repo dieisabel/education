@@ -1,0 +1,2 @@
+PYTHON := python
+VENV   := .venv/
